@@ -1,0 +1,26 @@
+Departure station,Arrival station,Departure time,Arrival time
+Dnipro,Lviv,03:00,02:40
+Kharkiv,Khelm,07:21,07:00
+Kharkiv,Lviv,03:00,02:40
+Khelm,Kharkiv,23:10,22:49
+Khelm,Kharkiv,23:10,22:49
+Khelm,Kyiv,23:10,22:49
+Kovel,Kyiv,18:55,
+Kovel,Kyiv,22:25,
+Kovel,Kyiv,18:55,
+Kovel,Odesa,18:14,
+Kovel,Uzhhorod,14:58,
+Kovel,Zaporizhzhia,10:14,
+Kyiv,Kovel,,08:30
+Kyiv,Kovel,,08:30
+Kyiv,Khelm,07:21,07:00
+Kyiv,Varshava,02:23,02:01
+Kyiv,Varshava,02:23,02:01
+Lviv,Dnipro,22:25,22:05
+Lviv,Kharkiv,22:25,22:05
+Odesa,Kovel,,10:50
+Uzhhorod,Kovel,,13:50
+Varshava,Kyiv,05:00,04:36
+Varshava,Kyiv,05:00,04:36
+Zaporizhzhia,Kovel,,15:27
+Zaporizhzhia,Kovel,,15:27
