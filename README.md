@@ -1,2 +1,2 @@
 # Pet-Projects
-Repository with avaliable pet projects
+This repository was created to display my projects which help you appreciate my professional skills
