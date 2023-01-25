@@ -1,0 +1,67 @@
+﻿{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://data.gov.ua/dataset/9b0e87e0-eaa3-4f14-9547-03d61b70abb6/resource/47c3e4a8-fb21-477a-bb37-ae242beb28e1/download/carswanted-shema.json",
+	"title": "CarsWanted",
+	"description": "Інформація про транспортні засоби, що перебувають у розшуку у зв`язку з їх незаконним заволодінням",
+	"defs": {
+		"WantedCar": {
+			"description": "Транспортний засіб у розшуку",
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"brandmodel": { 
+					"description": "Марка, модель",
+					"type": "string" 
+					},
+				"cartype": {
+					"description": "тип транспортного засобу",
+					"type": "string" 
+					},
+				"color": { 
+					"description": "колір",
+					"type": "string" 
+					},
+				"vehiclenumber": { 
+					"description": "державний номерний знак",
+					"type": "string" 
+					},
+				"bodynumber":  { 
+					"description": "номер кузова (VIN)",
+					"type": "string"
+					},
+				"chassisnumber":  { 
+					"description": "номер шассі",
+					"type": "string" 
+					},
+				"enginenumber":  { 
+					"description": "номер двигуна",
+					"type": "string" 
+					},
+				"illegalseizuredate": {
+					"description": "дата незаконного заволодіння",
+					"type": "string",
+					"format": "date-time"
+				},
+				"organunit": { 
+					"description": "Підрозділ, що здійснює розшук",
+					"type": "string"
+					},
+				"insertdate": {
+					"description": "дата обліку інформації",
+					"type": "string",
+					"format": "date-time"
+				}
+			},
+			"required": [
+				"organunit",
+				"brandmodel",
+				"cartype",
+				"color",
+				"illegalseizuredate",
+				"insertdate"
+			]
+		}
+	},
+	"type": "array",
+	"items": { "$ref": "#/definitions/WantedCar" }
+}
